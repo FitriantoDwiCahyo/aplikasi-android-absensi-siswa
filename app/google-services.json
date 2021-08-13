@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "509464883406",
+    "firebase_url": "https://projectkkp-2e00c.firebaseio.com",
+    "project_id": "projectkkp-2e00c",
+    "storage_bucket": "projectkkp-2e00c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509464883406:android:412ebb401a7a68b949e09f",
+        "android_client_info": {
+          "package_name": "com.example.absensi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509464883406-vd2ig3hgc7n7a4em6kihqt90gp5ahlnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.absensi",
+            "certificate_hash": "6124b792228d8a7380290fe4ad7b163e2bc6df10"
+          }
+        },
+        {
+          "client_id": "509464883406-f4hj50k4nqjqff45mr249d7lpit8jqrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTYZM-j4CiZLIUo-qixl6-BKgx1pYvBJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509464883406-f4hj50k4nqjqff45mr249d7lpit8jqrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

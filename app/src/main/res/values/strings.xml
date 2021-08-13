@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Absensi</string>
+    <string name="font_header">SMK AL-BASYARIAH \n E-ABSEN</string>
+    <string name="pilih_kelas">Pilih Kelas</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="tgl"></string>
+
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_jurusan_list_kelas">Jurusan_listKelas</string>
+    <string-array name="Daftar_Kelas_Tkj">
+        <item>TKJ X-1</item>
+        <item>TKJ X-2</item>
+        <item>TKJ X-3</item>
+        <item>TKJ XI-1</item>
+        <item>TKJ XI-2</item>
+        <item>TKJ XI-3</item>
+        <item>TKJ XII-1</item>
+        <item>TKJ XII-2</item>
+        <item>TKJ XII-3</item>
+
+    </string-array>
+    <string-array name="Daftar_Kelas_MM">
+        <item>MM X-1</item>
+        <item>MM X-2</item>
+        <item>MM X-3</item>
+        <item>MM XI-1</item>
+        <item>MM XI-2</item>
+        <item>MM XI-3</item>
+        <item>MM XII-1</item>
+        <item>MM XII-2</item>
+        <item>MM XII-3</item>
+
+    </string-array>
+
+    <string-array name="Daftar_Kelas_RPL">
+        <item>RPL X-1</item>
+        <item>RPL X-2</item>
+        <item>RPL X-3</item>
+        <item>RPL XI-1</item>
+        <item>RPL XI-2</item>
+        <item>RPL XI-3</item>
+        <item>RPL XII-1</item>
+        <item>RPL XII-2</item>
+        <item>RPL XII-3</item>
+
+    </string-array>
+
+    <string-array name="Daftar_Kelas_AK">
+        <item>AK X-1</item>
+        <item>AK X-2</item>
+        <item>AK X-3</item>
+        <item>AK XI-1</item>
+        <item>AK XI-2</item>
+        <item>AK XI-3</item>
+        <item>AK XII-1</item>
+        <item>AK XII-2</item>
+        <item>AK XII-3</item>
+
+    </string-array>
+
+    <string-array name="Daftar_Kelas_AP">
+        <item>AP X-1</item>
+        <item>AP X-2</item>
+        <item>AP X-3</item>
+        <item>AP XI-1</item>
+        <item>AP XI-2</item>
+        <item>AP XI-3</item>
+        <item>AP XII-1</item>
+        <item>AP XII-2</item>
+        <item>AP XII-3</item>
+
+    </string-array>
+
+    <string-array name="Daftar_Kelas_PM">
+        <item>PM X-1</item>
+        <item>PM X-2</item>
+        <item>PM X-3</item>
+        <item>PM XI-1</item>
+        <item>PM XI-2</item>
+        <item>PM XI-3</item>
+        <item>PM XII-1</item>
+        <item>PM XII-2</item>
+        <item>PM XII-3</item>
+
+    </string-array>
+
+    <string-array name="JK">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
