@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jurusan_ListKelas">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F6F5F5"
+        android:elevation="20dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mmedium"
+            android:text="Kategori"
+            android:textColor="#090909"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingBottom="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/bg_layout_menu"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    app:layout_constraintTop_toBottomOf="parent">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="-5dp"
+                        android:fontFamily="@font/mregular"
+                        android:text="Teknik Komputer Jaringan"
+                        android:textColor="@color/whiteprimary"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn_tkjx1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="T KJ"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_tkjx2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="T KJ"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_tkjxi1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="T KJ"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_tkjxi2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="T KJ"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_tkjxii1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="T KJ"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_tkjxii2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="T KJ"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/bg_layout_menu"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mregular"
+                        android:text="Multimedia"
+                        android:textColor="@color/whiteprimary"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn_mmx1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="MM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_mmx2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="MM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_mmxi1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="MM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_mmxi2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="MM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_mmxii1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="MM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_mmxii2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="MM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/bg_layout_menu"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mregular"
+                        android:text="Akutansi"
+                        android:textColor="@color/whiteprimary"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn_akx1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AK"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_akx2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AK"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_akxi1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AK"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_akxi2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AK"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_akxii1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AK"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_akxii2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AK"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/bg_layout_menu"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/mregular"
+                        android:text="Pemasaran"
+                        android:textColor="@color/whiteprimary"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn_pmx1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="PM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_pmx2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="PM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_pmxi1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="PM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_pmxi2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="PM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_pmxii1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="PM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_pmxii2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="PM"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/bg_layout_menu"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/mregular"
+                        android:text="Administrasi Perkantoran"
+                        android:textColor="@color/whiteprimary"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn_apx1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AP"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_apx2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AP"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_apxi1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AP"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_apxi2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AP"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_apxii1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AP"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_apxii2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="AP"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/bg_layout_menu"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="-5dp"
+                        android:fontFamily="@font/mregular"
+                        android:text="Rekayasa Perangkat Lunak"
+                        android:textColor="@color/whiteprimary"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="none"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn_rplx1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="RPL"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_rplx2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="RPL"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="15dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="X2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_rplxi1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="RPL"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_rplxi2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="RPL"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XI2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_rplxii1"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="RPL"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII1"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_rplxii2"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_kategori">
+
+                            <TextView
+                                android:layout_width="13dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="RPL"
+                                android:textSize="15dp" />
+
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@color/blackprimary" />
+
+                            <TextView
+                                android:layout_width="26dp"
+                                android:layout_height="80dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="13dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="XII2"
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
